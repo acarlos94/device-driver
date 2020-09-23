@@ -1,0 +1,1 @@
+cmd_/home/antonio/repos/device-driver/usb_driver.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/antonio/repos/device-driver/usb_driver.ko /home/antonio/repos/device-driver/usb_driver.o /home/antonio/repos/device-driver/usb_driver.mod.o ;  true
